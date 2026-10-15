@@ -1,0 +1,24 @@
+int main()
+{
+    int piece;
+    printf("lire la valeur");
+    scanf("%d", &piece);
+
+    if (piece == 1)
+    {
+        printf("placer dans la boite gauche\n");
+    }
+    else if (piece == 2)
+    {
+        printf("placer dans la boite centre\n");
+    }
+    else if (piece == 0.50)
+    {
+        printf("placer dans la boite droite\n");
+    }
+    else
+    {
+        printf("message error");
+    }
+    return 0;
+}
