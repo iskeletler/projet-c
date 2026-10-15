@@ -1,0 +1,34 @@
+int main(void)
+{
+    float dureeSec;
+    float tailleMb = 500.0f;
+    float debitMbs = 100.0f;
+    dureeSec = (tailleMb * 8) / debitMbs; // sert a calculer la durée du transfert ; * 8 = 8bits(peut varier)
+
+    printf("taille = %2.f Mb \n", tailleMb);
+    printf("debit = %.2f Mbs \n", debitMbs);
+
+    printf("la duree du transfert vaux : %2.0f mb/s\n", dureeSec);
+    //printf("%2.0f", duree);
+    return 0;
+}
+// scanf version
+
+int main()
+{
+    int dureeSec;
+    int tailleMb;
+    int debitMbs;
+
+    printf("calculer la vitesse du transfer\n ");
+    printf("inserez la taille de votre fichier : ");
+    scanf("%d", &tailleMb);
+
+    printf("inserez votre le debit : ");
+    scanf("%d", &debitMbs);
+
+    dureeSec = ("%d", tailleMb * 8) / ("%f", debitMbs);
+
+    printf("le resultat vaux : %d", dureeSec);
+    return 0;
+}
