@@ -1,0 +1,15 @@
+int main()
+{
+    float dBm; // int;
+    printf("si le signal sonore est : ");
+    scanf("%f", &dBm);
+    if (dBm <= -80)
+    {
+        printf("Signal Faible\n");
+    }
+    else
+    {
+        printf("Signal OK");
+    }
+    return 0;
+}
