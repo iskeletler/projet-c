@@ -1,0 +1,17 @@
+int main()
+{
+    float temperature;
+    
+    printf("temperature convertie : \n");
+    scanf("%f", &temperature);
+   
+    float convertie;
+    
+    convertie = temperature * 1.8 + 32;
+   
+    printf("la temperature convertie equivaux a : ");
+   
+    printf("%f", convertie);
+   
+    return 0;
+}
