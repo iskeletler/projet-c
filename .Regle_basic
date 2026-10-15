@@ -1,0 +1,16 @@
+// Ce dossier va etre modifier au fil du temps
+
+#include<stdio.h>
+#include <unistd.h>
+#include<stdlib.h>
+#include<stdbool.h>
+#include<string.h>
+
+
+
+// int = whole numbers (4bytes in modern system)
+    // float = single precision of a decimal number ( 4 bytes )
+        // double = double precision of a decimal number (8 bytes )
+            // char = single characters ( 1 byte )
+                // char [] = array of characters (size varies )
+                    // bool = true or false ( 1bytes, requires #include<stdbool.h> )
