@@ -24,7 +24,7 @@ int main()
     printf("inserez la taille de votre fichier : ");
     scanf("%d", &tailleMb);
 
-    printf("inserez votre le debit : ");
+    printf("inserez le debit : ");
     scanf("%d", &debitMbs);
 
     dureeSec = ("%d", tailleMb * 8) / ("%f", debitMbs);
