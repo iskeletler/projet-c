@@ -1,0 +1,22 @@
+int main()
+{
+    float x1, x2, x3;
+        //x1 = 5;  \
+        //x2 = 14;   - donnée mit manuellement dans le code source si vous voulez calculer sans scanf
+        //x3 = 9;  /
+   
+    printf("calcule de la moyenne : \n");
+    
+    scanf("%f", &x1);
+    scanf("%f", &x2);
+    scanf("%f", &x3);
+                        // a retirer si vous voulez le faire sans 
+    float moyenne;
+    
+    moyenne = (x1 + x2 + x3)/3;
+    
+    printf("la moyenne est egal a : ");
+    printf("%f", moyenne);
+    
+    return 0;
+}
