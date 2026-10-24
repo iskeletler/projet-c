@@ -1,0 +1,13 @@
+int main()
+{
+    srand(time(NULL));
+
+    //printf("RAND_MAX:%d\n", RAND_MAX);
+    printf("random number 1: %d\n", rand() // % 150 + 1);
+    printf("random number 2: %d\n", rand() // % 60 + 1);
+    printf("random number 3: %d\n", rand() // % 70 + 1);
+    printf("random number 4: %d\n", rand() // % 80 + 1);
+    printf("random number 5: %d\n", rand() // % 900 + 1); // 1--->900 si vous voulez mettre vos propres données
+
+    return 0;
+}
