@@ -1,0 +1,17 @@
+int main()
+{
+    int code;
+
+    printf("inserer le code : ");
+    scanf("%d", &code);
+
+    if (code == 4321)
+    {
+        printf("acces autorise\n");
+    }
+    else
+    {
+        printf("acces refuse\n");
+    }
+    return 0;
+}
