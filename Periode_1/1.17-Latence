@@ -1,0 +1,15 @@
+int main()
+{
+    int latence;
+
+    printf("latence : ");
+    scanf("%d", latence);
+
+    if (latence < 30)
+    printf("Excellente");
+    else if (latence < 100)
+        printf("Correcte");
+    else
+        printf("Mauvaise");
+    return 0;
+}
