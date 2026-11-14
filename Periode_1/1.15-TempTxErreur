@@ -1,0 +1,23 @@
+//seance 2 9/
+/*
+int main()
+{
+    int temperature;
+    int tauxErreur;
+
+    printf("insere la temperature : ");
+    scanf("%d", &temperature);
+    printf("insere le taux d'erreur : ");
+    scanf("%d", &tauxErreur);
+
+
+    if (temperature >= 0 && temperature <= 70 && tauxErreur < 5)
+    {
+        printf("systeme accepte");
+    }
+    else
+    {
+        printf("systeme refuse");
+    }
+    return 0;
+}
