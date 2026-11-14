@@ -1,0 +1,18 @@
+// 10
+
+int main()
+{
+    int age;
+    printf("tu as une reduction si tu as moins de 26ans\n");
+    printf("ton age : ");
+    scanf("%d", age);
+    if (age < 26)
+    {
+        printf("reducation accorde");
+    }
+    else
+    {
+        printf("reduction refuse");
+    }
+    return 0;
+}
