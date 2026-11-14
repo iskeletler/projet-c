@@ -1,0 +1,22 @@
+//A3
+int main()
+{
+    int nombre;
+    printf("afficher votre nombre : ");
+    scanf("%d", &nombre);
+
+    if (nombre < 0)
+    {
+        printf("NEGATIF");
+    }
+    else
+        if (nombre == 0)
+    {
+        printf("NUL");
+    }
+        else
+        {
+            printf("POSITIF");
+        }
+    return 0;
+}
