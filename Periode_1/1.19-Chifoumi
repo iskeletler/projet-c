@@ -1,0 +1,28 @@
+int main()
+{
+    int player;
+    int computer;
+
+    srand(time(NULL));
+
+    printf("0: ciseau, 1: pierre, 2: papier\n");
+    scanf("%d", &player);
+
+    computer = rand() %3;
+
+    printf("player a joue : %d et computer a joue : %d\n", player, computer);
+
+    if (player == computer)
+        {
+            printf("egalite\n");
+        }
+    else if ((player == 0 && computer == 2) || (player == 1 && computer == 0) || (player == 2 && computer == 1))
+        {
+            printf("joueur gagne\n");
+        }
+    else
+    {
+        printf("computer gagne\n");
+    }
+    return 0;
+}
