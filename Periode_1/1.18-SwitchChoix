@@ -1,0 +1,20 @@
+int main()
+{
+    int choix;
+
+    printf("choisi 1 pour horaires ou 2 pour tarifs : ");
+    scanf("%d", &choix);
+
+    switch (choix)
+    {
+    case 1:
+        printf("horaires");
+        break;
+    case 2:
+        printf("tarifs");
+        break;
+    defaut:
+        printf("choix incorrect");
+    }
+    return 0;
+}
