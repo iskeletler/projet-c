@@ -1,0 +1,28 @@
+//Exercice fin de séance 1 A1
+int main()
+{
+    int a;
+    int b;
+    //int sommes = a + b, produit = a * b;
+    char op;
+
+    printf("entre deux nombres entier : \n");
+    scanf("%d", &a);
+    scanf("%d", &b);
+
+    fflush(stdin);
+    printf("entre le caracrere d'operation : \n");
+    scanf(" %c", &op);
+
+    if (op == 's')
+    {
+        printf("la somme de a et b vaut : %d", a+b);
+        //printf("la somme de %d et %d vaut : %d", a, b, produit); // a refaire test
+    }
+    if (op == 'p')
+    {
+        printf("la somme de a et b vaut : %d", a*b);
+        //printf("la somme de %d et %d vaut : &d", a, b, sommes);
+    }
+    return 0;
+}
