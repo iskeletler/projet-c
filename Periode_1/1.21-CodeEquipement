@@ -1,0 +1,56 @@
+int main()
+{
+    int code;
+
+    printf("choisis le code de l'equipement : \n");
+    printf("0 = ARRET, 1 = ACTIF, 2 = MAINTENANCE, 3 = DEFAUT \n");
+    scanf("%d", &code);
+
+    switch (code)
+    {
+        case 0:
+        printf("equipement ARRET");
+            break;
+        case 1:
+        printf("equipement ACTIF");
+            break;
+        case 2:
+        printf("equipement MAINTENANCE");
+            break;
+        case 3:
+        printf("equipement DEFAUT");
+            break;
+        default:
+            printf("ERROR");
+    return 0;
+    }
+}
+*/
+
+int main()
+{
+    int code;
+
+    printf("choisis le code 0, 1, 2, 3 : ");
+    scanf("%d", &code);
+
+    if (code == 0)
+    {
+            printf("ARRET");
+    }
+    else if (code == 1)
+    {
+        printf("ACTIF");
+    }
+        else if (code == 2)
+        {
+            printf("MAINTENANCE");
+        }
+            else if (code == 3)
+            {
+                printf("DEFAUT");
+            }
+                else
+                    printf("ERROR");
+    return 0;
+}
