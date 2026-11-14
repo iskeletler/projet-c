@@ -1,0 +1,24 @@
+int main()
+{
+    srand(time(NULL));
+
+    int player = rand() % 6 +1;
+    int computer = rand() % 6 +1;
+
+    printf("player a lancer: %d\n", player);
+    printf("computer a lancer: %d\n", computer);
+
+    if (player == computer)
+    {
+        printf("egalite ", rand());
+    }
+    if (player > computer)
+    {
+        printf("player win ! \n", rand());
+    }
+    else // (player < computer)
+    {
+       printf("computer win! \n", rand());
+    }
+    return 0;
+}
