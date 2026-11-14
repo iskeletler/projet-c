@@ -1,0 +1,20 @@
+//A2
+/*int main()
+{
+    int a;
+    int b;
+
+    printf("afficher dans l'ordre deux nombres : ");
+    scanf("%d", a);
+    scanf("%d", b);
+
+    if(a < b)
+    {
+        printf("les deux nombres sont strictement croissant ");
+    }
+    else
+    {
+    printf("les deux nombres ne sont pas croissant ");
+    }
+    return 0;
+}
