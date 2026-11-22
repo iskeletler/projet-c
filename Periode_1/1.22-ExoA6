@@ -1,0 +1,58 @@
+#include <unistd.h>
+
+int main()
+{
+    float pourcentage;
+
+    printf("Ton pourcentage est entre 0 et 100 : ");
+
+    scanf("%f", &pourcentage);
+
+    if (pourcentage < 60)
+    {
+        printf("INSUFFISANT");
+    }
+    if (pourcentage > 70 && pourcentage < 60) // else if ( pourcentage > 70 )
+    {
+        printf("SATISFACTION");
+    }
+    if (pourcentage > 70 && pourcentage < 80)
+    {
+        printf("DISTINCTION");
+    }
+    if (pourcentage > 80 && pourcentage < 90)
+    {
+        printf("GRANDE DISTINCTION");
+    }
+    if (pourcentage >= 90)
+    {
+        printf("PLUS GRANDE DISTINCTION");
+    }
+    return 0;
+}
+// facon plus rapide 
+{
+    float pourcentage;
+
+    printf("Ton pourcentage est entre 0 et 100 : ");
+
+    scanf("%f", &pourcentage);
+
+    if (pourcentage < 60)
+    {
+        printf("INSUFFISANT");
+    }
+    else if (pourcentage < 70)
+    {
+        printf("SATISFACTION");
+    }
+        else if (pourcentage < 80)
+        {
+            printf("DISTINCTION");
+        }
+            else if (pourcentage <= 90)
+            {
+                printf("GRANDE DISTINCTION");
+            }
+    return 0;
+}
