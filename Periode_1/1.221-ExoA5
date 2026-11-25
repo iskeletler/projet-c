@@ -1,0 +1,35 @@
+//normalement c'était ça le but de l'exercice
+
+int main()
+{
+    float HT;
+    float TTC;
+    float remise;
+    float MontFinal;
+
+    printf("calcule ta remise : ");
+    scanf("%f", &HT);
+
+    TTC = HT +(HT * 21 / 100);
+    //MontFinal = HT + TTC;
+
+    if(TTC < 1500)
+    {
+        remise = 0;
+        MontFinal = TTC + remise;
+        printf("remise %f et le montant de %f ", remise, MontFinal);
+    }
+    if ((TTC >= 1500) && (TTC < 2500))
+    {
+        remise = TTC  * 1 / 100;
+        MontFinal = TTC + remise;
+        printf("la remise est de %f et le montant est de %f ", remise, MontFinal);
+    }
+    if (TTC >= 2500)
+    {
+        remise = TTC * 2 / 100;
+        MontFinal = TTC +remise;
+        printf("la remise est de %f et le montant est de %f", remise, MontFinal);
+    }
+    return 0;
+}
